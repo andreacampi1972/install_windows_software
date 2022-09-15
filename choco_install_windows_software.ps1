@@ -6,7 +6,8 @@ choco install putty -y
 choco install mobaxterm -y
 choco install openvpn -y
 choco install windirstat -y
-choco install keepass -y
+choco install keepass.install -y
 choco install authy-desktop -y
 choco install atom.install -y
 choco install caffeine -y
+choco install cherrytree -y
