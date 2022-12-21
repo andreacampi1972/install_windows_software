@@ -7,3 +7,5 @@ choco install virtualbox --version 6.1.40 -y
 choco install virtualbox-guest-additions-guest.install --version 6.1.38 -y
 
 vagrant plugin install vagrant-disksize
+#automatically installs the host's VirtualBox Guest Additions
+vagrant plugin install vagrant-vbguest
