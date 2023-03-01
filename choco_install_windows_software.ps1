@@ -11,3 +11,5 @@ choco install authy-desktop -y
 choco install atom.install -y
 choco install caffeine -y
 choco install cherrytree -y
+# VMware Remote Console
+choco install vmrc -y
