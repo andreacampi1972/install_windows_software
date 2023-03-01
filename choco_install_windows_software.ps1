@@ -1,15 +1,23 @@
 #Install choco
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+. sc.exe config winrm start= auto
+iwr -useb https://chocolatey.org/install.ps1 | iex
+
 
 choco upgrade chocolatey -y
-choco install putty -y
+choco install putty.install -y
 choco install mobaxterm -y
+choco install 7zip.install -y
+choco install winscp.install -y
 choco install openvpn -y
 choco install windirstat -y
 choco install keepass.install -y
 choco install authy-desktop -y
-choco install atom.install -y
 choco install caffeine -y
-choco install cherrytree -y
+
+# Editor
+choco install atom.install -y
+choco install vscode.install -y
+choco install notepadplusplus.install -y
+
 # VMware Remote Console
 choco install vmrc -y
