@@ -13,6 +13,8 @@ choco install windirstat -y
 choco install keepass.install -y
 choco install authy-desktop -y
 choco install caffeine -y
+choco install jre8 -y
+choco install git.install -y
 
 # Editor
 choco install atom.install -y
